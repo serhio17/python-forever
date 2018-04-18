@@ -25,6 +25,7 @@ for i in my_list:
         print(i)
 print()
 
+# TODO: use enumerate instead of range
 # Print elements which have even position in the list
 print("Elements with even position:")
 for i in range(0, len(my_list)):
