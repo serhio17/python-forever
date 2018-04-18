@@ -1,6 +1,8 @@
 # WARN: looks good, some fixes and improvements required. Also, I woluld like to introduce flake8 utility
 # (https://habrahabr.ru/company/dataart/blog/318776/) it can be useful to check that PEP8 standard applied for code.
 
+# TODO: please divide you code into functions for specific sub-tasks, please use `if __name == "__main__"` and call
+# for main() function instead of flat code. Transfer your array to each function which will solve sub-task.
 my_list = [91, 90, 92, -94, 93, -97, 96, 95, 99, 98]
 
 # Print only elements which are > 0
